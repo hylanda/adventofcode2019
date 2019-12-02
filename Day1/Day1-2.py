@@ -1,8 +1,7 @@
-
 def fuel(x):
-    y = int( x /3 ) -2
+    y = int(x / 3) - 2
     if y > 0:
-        return x+ fuel(y)
+        return x + fuel(y)
     else:
         return x
 

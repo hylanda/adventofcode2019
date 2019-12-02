@@ -11,7 +11,6 @@ def compute(line, noun, verb):
         elif mat[num] == 2:
             mat[mat[c]] = mat[mat[a]] * mat[mat[b]]
         else:
-            print("sumting wong")
             exit(99)
 
 
