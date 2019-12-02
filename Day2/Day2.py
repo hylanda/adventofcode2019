@@ -1,4 +1,4 @@
-f = open("input2.txt", "r")
+f = open("Day2/input2.txt", "r")
 mat = []
 line = f.readline()
 mat = [int(x) for x in line.split(',')]

@@ -15,7 +15,7 @@ def compute(line, noun, verb):
             exit(99)
 
 
-f = open("input2.txt", "r")
+f = open("Day2/input2.txt", "r")
 line = f.readline()
 for x in range(0, 99):
     for y in range(0, 99):
